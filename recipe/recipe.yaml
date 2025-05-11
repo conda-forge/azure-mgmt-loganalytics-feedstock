@@ -9,7 +9,7 @@ package:
   version: ${{ version }}
 
 source:
-  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/azure-mgmt-loganalytics-${{ version }}.zip
+  url: https://files.pythonhosted.org/packages/3c/fb/7119a3f0861b7d3a2680c1baf11e5f245f7a0166c23f519e3aea77bd2dec/azure_mgmt_loganalytics-13.0.0b7.tar.gz
   sha256: 934001a4a61e3e821a6344f2a8b265d53462f09bf92dfe65699cf4f89515a3e5
 
 build:
