@@ -1,2 +1,2 @@
 channel_targets:
-  - conda-forge azure-mgmt-iotcentral_rc
+  - conda-forge azure-mgmt-loganalytics_rc
