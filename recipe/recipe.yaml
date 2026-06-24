@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: azure-mgmt-loganalytics
-  version: 13.1.1
+  version: "14.0.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 4f971ee9d43fdc99e8299f44ca9f8f7a3b5f100be139fb0a9dac7efef8b698af
+  sha256: 200ecc8744b616c67b40a2e39d11831a0606021db8a199c79bfc246f8806ad35
 
 build:
   number: 0
